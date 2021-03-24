@@ -1,0 +1,73 @@
+.pubilc-box{
+    .menu-box{
+        display: flex;
+        .menu-aside{
+          flex: .8;
+          padding: 10px 0;
+          .nav-box{
+              width: 70px;
+              height: 70px;
+              position: fixed;
+          }
+          .latte-box{
+              width: 70px;
+              height: 70px;
+              line-height: 70px;
+              border-right: 1px solid #eee;
+              text-align: center;
+              left: 0;
+              .latte-text{
+                  font-size: 14px;
+                  font-weight: bold;
+              }
+          }
+          .active{
+              color: #e84203;
+              background-color: #fff;
+          }
+        }
+    }
+    .pro-box{
+        flex: 3;
+        margin-top: 10px;
+    }
+    .coll-box-item{
+        padding: 10px;
+        background-color: #fff;
+        .coll-img{
+            width: 80px;
+            height: 95px;
+            background-color: #ccc;
+            margin-right: 5px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .coll-content{
+            width: calc(~"100% - 90px");
+            .coll-name{
+                margin-top: 5px;
+                font-size: 16px;
+                font-weight: bold;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+            }
+            .coll-enname{
+                margin-top: 6px;
+                font-size: 12px;
+                color: #555;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+            }
+            .coll-price{
+                margin-top: 10px;
+            }
+            .coll-reten{
+                color: #e84203;
+            }
+        }
+    }
+}

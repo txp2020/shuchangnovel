@@ -1,0 +1,114 @@
+
+.newbook{
+    padding-top: 46px;
+    // min-height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 46px);
+    background-color: #fafafa;
+
+    .van-nav-bar .van-icon{
+        color: #fff;
+    }
+    .van-nav-bar__text{
+        color: #fff !important;
+    }
+    .van-nav-bar__content{
+        background-color: #d43e02;
+    }
+    .van-tabs__wrap {
+        min-width: 100%;
+        height: 44px;
+    }
+    .van-tabs__nav--line {
+        width: 100%;
+        position: fixed;
+        height: 44px;
+        overflow: hidden;
+        padding-bottom: 0px;
+    }
+
+    .van-tabs__line {
+        margin-bottom: -15px;
+    }
+    .van-tab--active {
+        color: #e84203;
+    }
+    
+    .van-tabs__content{
+        min-height: calc(640px - 80px);
+    }
+    .menu-info-box{
+        display: flex;
+    }
+    .menu-aside{
+        flex: 1;
+        .aside{
+            flex: 1;
+            min-height: 100%;
+            position: fixed;
+        }
+        .aside-item{
+            width: 63px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+        }
+    }
+    .menu-content{
+        flex: 5;
+    }
+
+    .pro-box{
+        flex: 3;
+        margin-top: 10px;
+    }
+    .coll-box-item{
+        padding: 10px;
+        background-color: #fff;
+        .coll-img{
+            width: 65px;
+            height: 85px;
+            background-color: #ccc;
+            margin-right: 5px;
+        }
+        .coll-content{
+            width: calc(~"100% - 70px");
+            .coll-name{
+                font-size: 15px;
+                font-weight: bold;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+            }
+            .coll-enname{
+                margin-top: 6px;
+                font-size: 12px;
+                color: #555;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+            }
+            .coll-price{
+                margin-top: 10px;
+            }
+            .coll-reten{
+                color: #e84203;
+            }
+        }
+    }
+    .active{
+        background-color: #e84203;
+        color: #fff;
+    }
+    .all{
+        transform: translateZ(0);
+    }
+    .van-tab__text--ellipsis{
+        transform: translateZ(0);
+    }
+    
+}

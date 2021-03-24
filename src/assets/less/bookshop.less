@@ -1,0 +1,282 @@
+.bookshop {
+    padding-top: 46px;
+    
+    overflow:scroll !important;
+    overflow-y:hidden !important;
+    /deep/ .van-icon {
+        color: #fff;
+    }
+
+    .van-nav-bar__text {
+        color: #fff;
+    }
+
+    .van-nav-bar__content {
+        background-color: #d43e02;
+    }
+
+    .van-search__content {
+        background-color: rgba(250, 248, 248, .3);
+    }
+
+    .van-search {
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .bookshop-box {
+        margin-bottom: 60px;
+
+    }
+
+    .bg-fixed {
+        width: 100%;
+        height: 120px;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+
+    .today-box {
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        height: 20px;
+        line-height: 34px;
+    }
+
+    .padding-box {
+        width: 100%;
+        height: 90px;
+        display: flex;
+
+        .clear-box {
+            flex: 5;
+            margin-top: 5px;
+        }
+
+        .left-box {
+            width: 60px;
+            height: 80px;
+            margin-left: 10px;
+            background-color: #dddddd;
+        }
+
+        .mid-box {
+            margin-left: 10px;
+            width: calc(100% - 90px);
+
+        }
+
+        .recom-box-img {
+            height: 80px;
+        }
+
+        .mid-title,
+        .mid-desc,
+        .mid-chapter {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+        }
+
+        .mid-title {
+            margin-top: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .mid-desc {
+            margin-top: 8px;
+        }
+
+        .mid-chapter {
+            margin-top: 8px;
+            span {
+                color: #d43e02;
+            }
+        }
+
+        .change-box {
+            flex: 1;
+            height: 40px;
+            color: #d43e02;
+            margin-top: -23px;
+            margin-left: 10px;
+            position: relative;
+
+            .change {
+                text-align: center;
+            }
+
+            .van-icon {
+                position: absolute;
+                left: 35%;
+            }
+        }
+
+
+    }
+
+    .banner-box {
+        padding: 10px 10px;
+
+        // margin-top: -70px;
+        .img-box {
+            width: 100%;
+            height: 175px;
+            background-color: #ccc;
+        }
+
+        .van-swipe__indicator--active {
+            background-color: #e84203;
+        }
+
+        .van-swipe {
+            transform: translateZ(0);
+            border-radius: 8px;
+        }
+
+        .van-swipe__track {
+            height: 175px !important;
+        }
+    }
+
+    // 猜你喜欢
+    .van-divider {
+        margin: 8px;
+        color: #d43e02;
+    }
+
+    .like-box {
+        display: flex;
+        background-color: #fff;
+        margin-bottom: 10px;
+        text-align: center;
+
+        .like-box-item {
+            flex: 1;
+
+            // padding: 10px 0;
+        }
+        .like-img {
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+
+            border-radius: 50%;
+        }
+
+        .like-text {
+            margin-top: -10px;
+            padding-bottom: 3px;
+        }
+
+        .like-img-box {
+            margin-top: 5px;
+        }
+    }
+
+    .hot-box {
+        margin-top: 5px;
+        height: 55px;
+        background-color: #fff;
+
+        .recommend {
+            width: 160px;
+            height: 100%;
+            position: relative;
+
+        }
+        .hot-box-sp {
+            width: 95px;
+            height: 50px;
+            margin-top: 2.5px;
+            font-size: 16px;
+            line-height: 55px;
+            text-indent: .5em;
+            font-weight: bold;
+            margin-left: 10px;
+            z-index: -1;
+        }
+
+
+        // .hot-box-bot {
+            .check-box {
+                width: 80px;
+                height: 31px;
+                margin-top: 10px;
+                position: relative;
+            }
+            .check {
+                height: 31px;
+                line-height: 31px;
+                text-indent: .5em;
+                margin-top: 15px;
+            }
+
+            .zhe-check {
+                height: 0px;
+                width: 0px;
+                border: 17px solid #fff;
+                border-left-color: transparent;
+                position: absolute;
+                right: -9px;
+                top: -1px;
+                z-index: 9999;
+            }
+        // }
+    }
+
+    .list-box-item {
+        padding: 10px;
+        display: flex;
+        background-color: #fff;
+        margin-top: 5px;
+
+        .item-img {
+            flex: 1;
+            height: 112px;
+            margin-right: 10px;
+            background-color: #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .img-box {
+            height: 112px;
+        }
+
+        .item-text {
+            flex: 3;
+        }
+
+        .item-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .item-content {
+            font-size: 12px;
+            color: #555;
+            margin-top: 10px;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+
+        .item-text-bot {
+            margin-top: 12px;
+            color: #555;
+        }
+
+        .sp-num {
+            margin-left: 5px;
+            color: #e84203;
+        }
+    }
+    
+}

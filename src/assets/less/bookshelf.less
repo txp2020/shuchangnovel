@@ -1,0 +1,70 @@
+body{
+    height: 100%;
+}
+.bookshelf{
+    padding-top: 46px;
+    height: calc( 100% - 46px);
+    position: absolute;
+    width: 100%;
+    background-color: #fafafa;
+    .van-icon, .van-nav-bar__title{
+        color: #fff;
+    }
+    .van-nav-bar__text{
+        color: #fff !important;
+    }
+    .van-nav-bar__content{
+        background-color: #d43e02;
+    }
+    .shlef-box{
+        padding: 11px;
+        margin-bottom: 40px;
+    }
+    .book-box{
+        width: 28%;
+        height: 150px;
+        background-color: #fff;
+        margin-right: 13px;
+        padding: 5px;
+        margin-bottom: 10px;
+        position: relative;
+        &:nth-of-type(3n){
+            margin-right: 0;
+        }
+        .book-box-img{
+            height: 130px;
+        }
+        .img{
+            height: 130px;
+        }
+        .book-box-title{
+            text-align: center;
+            margin-top: 2px;
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            
+        }
+    }
+    .van-icon-delete{
+        position: absolute;
+        bottom: 3px;
+        font-weight: bold;
+        right: 5px;
+        top: 5px;
+        height: 16px;
+    }
+    .add-box{
+        width: 40px;
+        height: 40px;
+        // background-color: #d43e02;
+        border-radius: 50%;
+        box-shadow: 0px 0px 1px 2px #f79873;
+        overflow: hidden;
+        position: fixed;
+        bottom: 80px;
+        right: 10px;
+        z-index: 9999;
+    }
+}

@@ -1,0 +1,236 @@
+.readbook {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    .van-popup {
+        height: 50px;
+    }
+    .contents{
+        height: 100%;
+        width: 100%;
+    }
+
+    .return-box {
+
+        .van-overlay {
+            display: none;
+        }
+
+        .van-popup {
+            // height: 46px;
+            background-color: #000;
+        }
+    }
+
+    .van-nav-bar {
+        z-index: 9999;
+        background-color: #000;
+    }
+
+    .van-nav-bar .van-icon,
+    .van-nav-bar__text,
+    .van-nav-bar__title {
+        color: #b1aeae;
+        font-weight: bold;
+    }
+
+    .show-box {
+        .van-overlay {
+            top: 0;
+            background-color: rgba(0, 0, 0, .5);
+            z-index: 0 !important;
+        }
+    }
+
+    .content-box {
+        z-index: -1 !important;
+        padding: 10px;
+
+        .contents{
+        }
+        .contents-title{
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .contents-cont{
+            text-indent:2em;
+        }
+        .contents-btn{
+            margin-bottom: 10px;
+        }
+        .upper, .next{
+            width: 60px;
+            height: 26px;
+            line-height: 26px;
+            font-size: 16px !important;
+            text-align: center;
+            border: 1px solid #b8a077;
+            box-sizing: border-box;
+        }
+        
+    }
+    
+
+    .bottom-box {
+        display: flex;
+        height: 50px;
+        background-color: #000;
+    }
+
+    .bottom {
+        flex: 1;
+        position: relative;
+        color: #999;
+    }
+
+    .img-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 24px;
+        width: 24px;
+        margin-top: -12px;
+        margin-left: -12px;
+    }
+
+    .setup-box {
+        background-color: #000;
+        color: #e6e6e6;
+    }
+
+    .typeface-box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .center {
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .crease {
+        width: 60px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        border: 1px solid #e6e6e6;
+        border-radius: 8px;
+    }
+
+    .increase {
+        // margin-left: 22px;
+        margin-right: 30px;
+    }
+
+    .decrease {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .size {
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+    .bgColor-box {
+        padding: 10px;
+    }
+
+    .bgColor {
+        width: 100%;
+        height: 60px;
+        display: flex;
+    }
+
+    .color {
+        flex: 1;
+        text-align: center;
+    }
+    .color-item{
+        width: 50px;
+        height: 26px;
+        background-color: #fff;
+        position: relative;
+        left: 50%;
+        margin-left: -26px;
+        margin-bottom: 4px;
+    }
+
+    .catalog-box {
+        .van-popup {
+            width: 70%;
+            background-color: #dbbc86;
+        }
+
+        .van-overlay {
+            background-color: rgba(0, 0, 0, .3)
+        }
+    }
+
+    .title-box {
+        padding: 10px;
+        border-bottom: 1px solid #bea374;
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: #dbbc86;
+    }
+    .fixed-box{
+        transform: translateZ(0);
+    }
+    .van-skeleton__title{
+        margin: 0 auto;
+    }
+    .van-skeleton__row, .van-skeleton__title{
+        background-color: #f0d8ae;
+        margin-top: 20px;
+        height: 18px;
+    }
+    // /deep/.van-skeleton__row{
+    //     line-height: 25px;
+    // }
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #444;
+        margin-top: 20px;
+        transform: translateZ(0);
+    }
+
+    .cata {
+        color: #444;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .chapter-box {
+        padding: 0 10px;
+    }
+
+    .chapter {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        color: #666;
+        border-bottom: 1px solid #bea374;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+    }
+    .updated,.reverse{
+        color: #555;
+    }
+    .van-list__error-text, .van-list__finished-text, .van-list__loading{
+        text-indent: 0em;
+    }
+
+    .active{
+        color: #fff;
+    }
+   
+}
